@@ -1,0 +1,160 @@
+body {
+  background-color: #DAEDE9;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background: #211A06;
+  color: #FFFFFF;
+}
+
+#navbar ul {
+  padding: 10px;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul li:hover {
+  color: #ff8080;
+}
+
+#about, #experience, #skills, #projects {
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  font-kerning: 2px;
+  display: inline;
+}
+
+ul li:first-child{
+  border-right: 2px solid #FFFFFF;
+  display: inline;
+  font-family: 'Cabin', sans-serif;
+  color: #FFFFFF;
+  font-size: 22px;
+  padding-right: 20px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}  /*this is the clearfix!*/
+
+
+ /*General Styles Section Below*/
+
+h2 {
+  font-size: 22px;
+  font-weight: 200;
+  text-align: center;
+  color: #575A5B;
+  font-family: 'Cabin', sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 200;
+  font-family: 'Cabin', sans-serif;
+  color: #575A5B;
+}
+
+p {
+  font-size: 16px;
+  color: #575A5B;
+  line-height: 28px;
+  font-family: 'Cabin', sans-serif;
+}
+
+ /*About Section Below*/
+
+section.about {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+section.about h2 {
+  padding: 5px;
+  width: 10%;
+  text-align: center;
+  margin: 120px auto 0px auto;
+}
+
+section.about .thumbnail {
+  border-radius: 50%;
+  padding: 0 15px;
+  margin-left: 20%;
+  float: left;
+  width: 230px;
+  display: inline-block;
+}
+
+section.about p {
+  margin: 10px 20px 0 23px;
+  width: 30%;
+  float: left;
+}
+
+ /*experience Section Below*/
+
+main .experience {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+main .skills {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.skills ul li {
+  text-decoration: none;
+  padding: 10px 23px;
+  margin: 13px;
+  color: #FFFFFF;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  right: 20px;
+  background-color: #575A5B;
+}
+
+.skills ul li:hover {
+  background-color: #ff8080;
+}
+
+main section.projects-section {
+  width: 650px;
+  margin: 0 auto;
+}
+
+div.projects-1:hover, div.projects-2:hover {
+  border: 1px solid #777;
+}
+
+div.projects-1 {
+    float: left;
+    display: inline-block;
+    width: 36%;
+    margin-left:25px;
+    padding: 10px;
+}
+
+div.projects-2 {
+   float: right;
+   display: inline-block;
+   width: 36%;
+   margin-right: 25px;
+   padding: 10px;
+}
